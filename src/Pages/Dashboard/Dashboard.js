@@ -9,6 +9,7 @@ import { FaPhoneAlt } from "react-icons/fa";
 import About from "./About";
 import Banner from "./Banner";
 import Portfolio from "./Portfolio";
+import Stats from "./Stats";
 
 const Dashboard = () => {
   return (
@@ -22,9 +23,12 @@ const Dashboard = () => {
         <input id="my-drawer-2" type="checkbox" class="drawer-toggle" />
         <div class="drawer-content flex flex-col items-center justify-center">
           {/* <!-- Page content here --> */}
-          <Banner />
-          <Portfolio />
-          <About />
+          <section>
+            <Banner />
+            <Stats />
+            <Portfolio />
+            <About />
+          </section>
         </div>
         <div class="drawer-side">
           <label for="my-drawer-2" class="drawer-overlay"></label>
@@ -37,7 +41,7 @@ const Dashboard = () => {
             />
 
             <a
-              className="py-3 bg-red-600 hover:bg-green-600 text-white text-lg text-center"
+              className="py-3 bg-pink-600 hover:bg-green-600 text-white text-lg text-center"
               href="/"
             >
               Join With Eyakub Habib
