@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Catamaran:wght@500&family=Dancing+Script:wght@500&family=Lobster+Two:ital@1&family=Poppins:wght@500;600&family=Roboto:wght@500&family=Rokkitt&family=Satisfy&family=Ubuntu:wght@500;700&family=ZCOOL+QingKe+HuangYou&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
