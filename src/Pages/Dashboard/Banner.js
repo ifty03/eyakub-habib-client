@@ -4,13 +4,13 @@ const Banner = () => {
   return (
     <div
       id="banner"
-      class=" flex flex-wrap items-center p-4 mt-[500px] md:mt-[60px] lg:mt-[200px]  justify-center min-w-full"
+      class=" flex flex-wrap items-center p-4 mt-[500px] md:mt-[60px] lg:mt-[320px]  justify-center min-w-full"
     >
       <div class="container min-w-full bg-white rounded  shadow-lg transform duration-200 easy-in-out m-12">
-        <div class="h-2/4 sm:h-64  overflow-hidden">
+        <div class="lg:h-[400px] sm:h-64  overflow-hidden">
           <img
-            class="w-full rounded-t"
-            src="https://onsystemlogic.com/wp-content/uploads/2021/10/img-osl-solar-winds.jpg"
+            class="w-[100%] rounded-t"
+            src="https://img.freepik.com/free-vector/web-development-coding-programming-futuristic-banner-computer-code-laptop_3482-5572.jpg?w=2000"
             alt="aldi sigun on Unsplash"
           />
         </div>
@@ -24,7 +24,7 @@ const Banner = () => {
             />
           </span>
         </div>
-        <div className="lg:flex justify-center p-5 gap-10 lg:-mt-20 -mt-3 flex-wrap">
+        <div className="lg:flex justify-center p-5 lg:px-10 gap-10 lg:-mt-20 -mt-3 flex-wrap">
           <div className="ml-auto lg:pl-3">
             <h3 className="text-2xl font-semibold">Eyakub Habib</h3>
             <p className="text-gray-400 text-sm mt-1">

@@ -4,7 +4,7 @@ const Stats = () => {
   return (
     <div className="container -mt-7 mb-8 grid grid-cols-1 px-4 gap-6 mx-auto sm:grid-cols-2 xl:grid-cols-4">
       <div className="flex space-x-4 mx-auto shadow-lg w-11/12 md:w-full p-4 rounded-lg md:space-x-6 bg-gray-50 text-gray-800">
-        <div className="flex justify-center p-2 align-middle rounded-lg sm:p-4 bg-violet-600">
+        <div className="flex justify-center p-2 align-middle rounded-lg sm:p-4 bg-pink-600">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 512 512"
@@ -22,7 +22,7 @@ const Stats = () => {
         </div>
       </div>
       <div className="flex  mx-auto shadow-lg w-11/12 md:w-full p-4 space-x-4 rounded-lg md:space-x-6 bg-gray-50 text-gray-800">
-        <div className="flex justify-center p-2 align-middle rounded-lg sm:p-4 bg-violet-600">
+        <div className="flex justify-center p-2 align-middle rounded-lg sm:p-4 bg-pink-600">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 512 512"
@@ -41,7 +41,7 @@ const Stats = () => {
         </div>
       </div>
       <div className="flex p-4  mx-auto shadow-lg w-11/12 md:w-full space-x-4 rounded-lg md:space-x-6 bg-gray-50 text-gray-800">
-        <div className="flex justify-center p-2 align-middle rounded-lg sm:p-4 bg-violet-600">
+        <div className="flex justify-center p-2 align-middle rounded-lg sm:p-4 bg-pink-600">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 512 512"
@@ -62,7 +62,7 @@ const Stats = () => {
         </div>
       </div>
       <div className="flex p-4 space-x-4  mx-auto shadow-lg w-11/12 md:w-full rounded-lg md:space-x-6 bg-gray-50 text-gray-800">
-        <div className="flex justify-center p-2 align-middle rounded-lg sm:p-4 bg-violet-600">
+        <div className="flex justify-center p-2 align-middle rounded-lg sm:p-4 bg-pink-600">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 512 512"

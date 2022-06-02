@@ -10,6 +10,7 @@ import About from "./About";
 import Banner from "./Banner";
 import Portfolio from "./Portfolio";
 import Stats from "./Stats";
+import Skils from "./Skils";
 
 const Dashboard = () => {
   return (
@@ -26,6 +27,7 @@ const Dashboard = () => {
           <section>
             <Banner />
             <Stats />
+            <Skils />
             <Portfolio />
             <About />
           </section>
