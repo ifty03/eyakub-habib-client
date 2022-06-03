@@ -28,7 +28,7 @@ const Dashboard = () => {
   });
   return (
     <div>
-      <div class="navbar bg-error lg:hidden">
+      <div class="navbar bg-pink-600 lg:hidden">
         <label for="my-drawer-2" class="drawer-button ">
           <RiMenu2Fill className="text-2xl text-white ml-2" />
         </label>
