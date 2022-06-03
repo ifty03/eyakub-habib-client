@@ -6,6 +6,9 @@ import { FaClipboardList } from "react-icons/fa";
 import { MdOutlineWork } from "react-icons/md";
 import { RiFileCopy2Fill } from "react-icons/ri";
 import { FaPhoneAlt } from "react-icons/fa";
+import { BsFacebook } from "react-icons/bs";
+import { BsInstagram } from "react-icons/bs";
+import { AiOutlineTwitter } from "react-icons/ai";
 import About from "./About";
 import Banner from "./Banner";
 import Portfolio from "./Portfolio";
@@ -37,17 +40,44 @@ const Dashboard = () => {
           <ul class="menu p-4 overflow-y-auto w-80 bg-base-100 text-base-content">
             {/* <!-- Sidebar content here --> */}
 
-            <img
+            {/* <img
               src="https://eyakubhabib.com/images/eyakub-habib.jpg"
               alt="This is owner img"
-            />
+            /> */}
 
-            <a
-              className="py-3 bg-pink-600 hover:bg-green-600 text-white text-lg text-center"
-              href="/"
-            >
-              Join With Eyakub Habib
-            </a>
+            <div class="relative block bg-black group">
+              <img
+                class="absolute inset-0 object-cover  transition-opacity opacity-75  group-hover:opacity-50"
+                src="https://eyakubhabib.com/images/eyakub-habib.jpg"
+                alt=""
+              />
+              <div class="relative p-8">
+                <p class="text-sm font-medium tracking-widest text-pink-500 uppercase">
+                  Developer
+                </p>
+
+                <p class="text-2xl font-bold text-white">Eyakub habib</p>
+
+                <div className="mt-20 mb-12">
+                  <div class="transition-all transform translate-y-8 opacity-0  group-hover:opacity-100 group-hover:translate-y-0">
+                    <div className="flex justify-center items-center gap-3 h-300px">
+                      <BsFacebook className="bg-pink-500 p-2 cursor-pointer hover:bg-pink-600 text-4xl text-white rounded-full" />{" "}
+                      <BsInstagram className="bg-pink-500 p-2 cursor-pointer hover:bg-pink-600 text-4xl text-white rounded-full" />{" "}
+                      <AiOutlineTwitter className="bg-pink-500 p-2 text-4xl cursor-pointer hover:bg-pink-600 text-white rounded-full" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <li>
+              <a
+                className="py-3  bg-pink-600 hover:bg-green-600 text-white text-lg text-center"
+                href="/"
+              >
+                Join With Eyakub Habib
+              </a>
+            </li>
 
             <li>
               <a href="#banner" className="text-lg">
