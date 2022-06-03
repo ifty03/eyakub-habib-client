@@ -95,8 +95,8 @@ const Dashboard = () => {
               </a>
             </li>
             <li>
-              <a href="#resume" className="text-lg">
-                <FaClipboardList /> Resume
+              <a href="#skills" className="text-lg">
+                <FaClipboardList /> Skills
               </a>
             </li>
             <li>

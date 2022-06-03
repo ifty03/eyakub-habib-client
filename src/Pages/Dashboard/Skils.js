@@ -4,7 +4,10 @@ import { SiWechat } from "react-icons/si";
 
 const Skils = () => {
   return (
-    <div className="grid lg:grid-cols-2 grid-cols-1 gap-7 py-5 px-4">
+    <div
+      id="skills"
+      className="grid lg:grid-cols-2 grid-cols-1 gap-7 py-5 px-4"
+    >
       <table class="table lg:w-full shadow-lg w-11/12 mx-auto">
         <thead>
           <tr>
