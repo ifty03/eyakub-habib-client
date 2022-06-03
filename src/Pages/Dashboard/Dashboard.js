@@ -15,6 +15,7 @@ import Portfolio from "./Portfolio";
 import Stats from "./Stats";
 import Skils from "./Skils";
 import { useTypewriter } from "react-simple-typewriter";
+import Footer from "../Footer/Footer";
 
 const Dashboard = () => {
   const { text, count } = useTypewriter({
@@ -42,7 +43,7 @@ const Dashboard = () => {
             <Stats />
             <Skils />
             <Portfolio />
-            {/* <About /> */}
+            <About />
           </section>
         </div>
         <div class="drawer-side">
@@ -104,19 +105,20 @@ const Dashboard = () => {
                 <MdOutlineWork /> Portfolio
               </a>
             </li>
-            <li>
+            {/* <li>
               <a href="#blog" className="text-lg">
                 <RiFileCopy2Fill /> Blog
               </a>
-            </li>
+            </li> */}
             <li>
-              <a href="#contact" className="text-lg">
+              <a href="#about" className="text-lg">
                 <FaPhoneAlt /> Contact
               </a>
             </li>
           </ul>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

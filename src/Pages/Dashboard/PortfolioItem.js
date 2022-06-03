@@ -23,7 +23,7 @@ const PortfolioItem = () => {
         </p>
 
         <div class="inline-block pb-1 mt-4 font-medium text-pink-600 border-b border-pink-500 ">
-          Find out more
+          View live demo
           <span aria-hidden="true">&rarr;</span>
         </div>
       </div>
