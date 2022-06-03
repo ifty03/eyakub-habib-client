@@ -42,7 +42,7 @@ const Dashboard = () => {
             <Stats />
             <Skils />
             <Portfolio />
-            <About />
+            {/* <About /> */}
           </section>
         </div>
         <div class="drawer-side">

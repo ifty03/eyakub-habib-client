@@ -4,7 +4,7 @@ const Banner = () => {
   return (
     <div
       id="banner"
-      class=" flex flex-wrap items-center p-4 mt-[500px] md:mt-[60px] lg:mt-[320px]  justify-center min-w-full"
+      class=" flex flex-wrap items-center p-4 mt-[4100px] md:mt-[2200px] lg:mt-[1680px]  justify-center min-w-full"
     >
       <div class="container min-w-full bg-white rounded  shadow-lg transform duration-200 easy-in-out m-12">
         <div class="lg:h-[400px] sm:h-64  overflow-hidden">
