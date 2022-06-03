@@ -22,7 +22,7 @@ const PortfolioItem = () => {
           eiusmod tempor incididunt ut labore et dolore magna aliqua.
         </p>
 
-        <div class="inline-block pb-1 mt-4 font-medium text-blue-600 border-b border-blue-500 ">
+        <div class="inline-block pb-1 mt-4 font-medium text-pink-600 border-b border-pink-500 ">
           Find out more
           <span aria-hidden="true">&rarr;</span>
         </div>

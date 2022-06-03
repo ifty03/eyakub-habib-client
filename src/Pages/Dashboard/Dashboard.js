@@ -14,8 +14,18 @@ import Banner from "./Banner";
 import Portfolio from "./Portfolio";
 import Stats from "./Stats";
 import Skils from "./Skils";
+import { useTypewriter } from "react-simple-typewriter";
 
 const Dashboard = () => {
+  const { text, count } = useTypewriter({
+    words: ["Developer", "graphic designer", "programmer", "mentor!"],
+    loop: 100,
+    cursor: true,
+    cursorStyle: "|",
+    typeSpeed: 70,
+    deleteSpeed: 50,
+    delaySpeed: 1000,
+  });
   return (
     <div>
       <div class="navbar bg-error lg:hidden">
@@ -40,11 +50,6 @@ const Dashboard = () => {
           <ul class="menu p-4 overflow-y-auto w-80 bg-base-100 text-base-content">
             {/* <!-- Sidebar content here --> */}
 
-            {/* <img
-              src="https://eyakubhabib.com/images/eyakub-habib.jpg"
-              alt="This is owner img"
-            /> */}
-
             <div class="relative block bg-black group">
               <img
                 class="absolute inset-0 object-cover  transition-opacity opacity-75  group-hover:opacity-50"
@@ -52,9 +57,9 @@ const Dashboard = () => {
                 alt=""
               />
               <div class="relative p-8">
-                <p class="text-sm font-medium tracking-widest text-pink-500 uppercase">
-                  Developer
-                </p>
+                <h1 class="text-sm font-medium tracking-widest text-pink-500 uppercase">
+                  {text} <span className="text-lg">.</span>
+                </h1>
 
                 <p class="text-2xl font-bold text-white">Eyakub habib</p>
 
